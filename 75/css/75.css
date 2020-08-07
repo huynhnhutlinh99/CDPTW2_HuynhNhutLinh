@@ -1,0 +1,58 @@
+.type-75 {
+  font-size: 14px; }
+  .type-75 .my-container {
+    max-width: 600px; }
+  .type-75 .nl-head-logo {
+    background: #2a2e3c;
+    padding: 15px;
+    text-align: center; }
+  .type-75 .nl-tbl-tabs {
+    border: 1px solid #dee2e6;
+    padding: 0; }
+    .type-75 .nl-tbl-tabs .nl-nav-tabs {
+      background: #fff;
+      border-bottom: 1px solid #dee2e6;
+      padding: 15px; }
+      .type-75 .nl-tbl-tabs .nl-nav-tabs .nav-link {
+        border: 0;
+        padding: 4px 15px;
+        color: #242424;
+        text-transform: uppercase;
+        font-weight: 500; }
+        .type-75 .nl-tbl-tabs .nl-nav-tabs .nav-link.active {
+          color: #3EAAFD;
+          border: 0; }
+  .type-75 .nl-tab-content {
+    padding: 15px 30px 30px;
+    line-height: 1.8; }
+    .type-75 .nl-tab-content .nl-lbl-login {
+      width: 100%;
+      color: #242424;
+      font-weight: 500;
+      margin-bottom: 0; }
+    .type-75 .nl-tab-content .nl-ip {
+      width: 100%;
+      background-color: #fff;
+      box-shadow: 0 0 2px 2px rgba(0, 0, 0, 0.02) inset;
+      border: 1px solid #dee2e6;
+      padding: 5px 10px;
+      max-width: 100%;
+      margin-top: 4px; }
+    .type-75 .nl-tab-content .nl-decs-frm {
+      color: #757575;
+      margin-bottom: 10px; }
+  .type-75 .nl-submit {
+    border: 0;
+    background: #3EAAFD;
+    color: #fff;
+    overflow: hidden;
+    font-size: 14px;
+    font-weight: 500;
+    padding: 0 26px;
+    display: inline-block;
+    line-height: 42px;
+    border-radius: 4px;
+    margin-top: 10px; }
+    .type-75 .nl-submit:hover {
+      cursor: pointer;
+      background: #0c94fc; }

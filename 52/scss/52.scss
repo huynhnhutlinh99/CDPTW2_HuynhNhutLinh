@@ -1,0 +1,66 @@
+$color_grey_75: #757575;
+$color_btn_theme: #3EAAFD;
+$color_white: #fff;
+
+.type-52{
+    a{
+        text-decoration: none;
+    }
+    .nl-row-52{
+        position: relative;
+        width: 100%;
+        margin: 0;
+        align-items: center;
+        padding:  80px 0;
+
+    }
+    .nl-btn-actions{
+        text-align: right;
+        padding-top: 6px;
+        .nl-btn-theme{
+            position: relative;
+            display: inline-block;
+            line-height: 42px;
+            background-color: $color_btn_theme;
+            color: $color_white;
+            overflow: hidden;
+            font-size: 14px;
+            font-weight: 600;
+            padding: 0 36px 0 26px;
+            z-index: 1;
+            border-radius: 4px;
+            font-family: "Poppins",sans-serif;
+           i{
+               position: absolute;
+               top: 50%;
+               transform: translateY(-50%);
+               right: 14px;
+               font-weight: 900;
+               margin: auto;
+           }
+        }
+    }
+    .nl-content{
+        text-align: left;
+        display: inline-block;
+        .nl-title{
+            position: relative;
+            font-size: 28px;
+            line-height: 39px;
+            letter-spacing: 0;
+            font-weight: 500;
+            margin-bottom: 0;
+        }
+        .nl-decs{
+            font-size: 14px;
+            line-height: 30px;
+            color: $color_grey_75;
+            margin-bottom: 0;
+        }
+    }
+}
+@media ( max-width:767px){
+    .nl-btn-theme{
+        margin-top: 30px;
+    }
+}

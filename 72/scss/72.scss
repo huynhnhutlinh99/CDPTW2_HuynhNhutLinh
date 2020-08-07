@@ -1,0 +1,89 @@
+$color_btn_theme: #3EAAFD;
+$color_white: #fff;
+.type-72{
+    .nl-part-left{
+        padding-left: 60px;
+        .nl-widget-content{
+            padding:  30px 30px 0 0;
+            .sub-title{
+                span{
+                    text-transform: uppercase;
+                    background: #febf01;
+                    font-size: 9px;
+                    padding: 2px 5px;
+                    letter-spacing: 1.5px;
+                    color: #fff;
+                }
+            }
+            .nl-title{
+                font-size: 18px;
+                font-family: Arial,sans-serif;
+                position: relative;
+                line-height: 42px;
+                margin-bottom: 5px;
+                color: #000;
+                font-weight: 500;
+            }
+
+            .nl-decs{
+                font-family: roboto,sans-serif;
+                font-size: 13px;
+                font-weight: 400;
+                line-height: 1.8;
+                color: #757575;
+                margin-bottom: 10px;
+            }
+
+            .nl-btn-theme{
+                position: relative;
+                display: inline-block;
+                line-height: 42px;
+                background-color: $color_btn_theme;
+                color: $color_white;
+                overflow: hidden;
+                font-size: 14px;
+                font-weight: 600;
+                padding: 0 36px 0 26px;
+                z-index: 1;
+                border-radius: 4px;
+                font-family: "Poppins",sans-serif;
+                margin-top: 10px;
+                text-decoration: none;
+               i{
+                   position: absolute;
+                   top: 50%;
+                   transform: translateY(-50%);
+                   right: 14px;
+                   font-weight: 900;
+                   margin: auto;
+               }
+            }
+        }
+    }
+    .nl-part-right{
+        padding: 0 60px;
+        .nl-images{
+            position: relative;
+            width: 100%;
+
+            .nl-img-1{
+                position: relative;
+                width: 100%;
+                height: auto;
+                box-shadow: 0 10px 45px rgba(0,0,0,.2);
+                border: 2px solid #fff;
+                right: 30px;
+            }
+            .nl-img-2{
+                position: absolute;
+                bottom: 150px;
+                right: 0;
+                z-index: 9;
+                bottom: 58.9831px;
+                max-width: 50%;
+                box-shadow: 0 10px 45px rgba(0,0,0,.15);
+                border: 2px solid #fff;
+            }
+        }
+    }
+}

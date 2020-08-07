@@ -1,0 +1,31 @@
+$color_grey_24: #242424;
+$color_grey_75: #757575;
+$color_blue: #3EAAFD;
+$color_white: #fff;
+$color_grey_border: #dee2e6;
+.type-60{
+    .nl-tbl-tabs{
+        border: 1px solid $color_grey_border;
+        padding: 0;
+        .nl-nav-tabs{
+            background: $color_white;
+            border-bottom: 1px solid $color_grey_border;
+            padding: 15px;
+            .nav-link{
+                border: 0;
+                padding: 4px 15px;
+                color: $color_grey_24;
+                text-transform: uppercase;
+                font-weight: 500;
+                &.active{
+                    color: $color_blue;
+                    border: 0;
+                }
+            }
+        }
+    }
+    .nl-tab-content{
+        padding: 30px;
+        color: $color_grey_75;
+    }
+}

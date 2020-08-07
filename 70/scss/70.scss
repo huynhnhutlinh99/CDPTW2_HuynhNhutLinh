@@ -1,0 +1,30 @@
+$color_black: #000;
+$color_grey_75: #757575;
+.type-70{
+    .nl-content{
+        margin-bottom: 50px;
+        padding: 0;
+        display: flex;
+        flex-direction: row;
+        .nl-icon-part{
+            img{
+                display: inline-block;
+                margin-top: 12px;
+            }
+        }
+        .nl-ctn-part{
+            padding-left: 20px;
+        }
+        .nl-item-name{
+            font-size: 18px;
+            color: $color_black;
+            margin: 10px 0;
+            font-weight: 500;
+            font-family: poppins,sans-serif;
+        }
+        .decs{
+            color: $color_grey_75;
+            line-height: 25px;
+        }
+    }
+}

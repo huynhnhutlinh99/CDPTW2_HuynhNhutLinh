@@ -1,0 +1,51 @@
+.type-56 {
+  padding: 80px 0;
+  font-family: "Rubik", sans-serif;
+  font-weight: 400;
+  font-size: 14px; }
+  @font-face {
+    font-family: "Rubik";
+    src: url("../fonts/Rubik-Medium.ttf"); }
+  @font-face {
+    font-family: "Rubik";
+    src: url("../fonts/Rubik-Regular.ttf"); }
+  @font-face {
+    font-family: "Poppins";
+    src: url("../fonts/Poppins-Medium.ttf"); }
+  .type-56 .nl-PieChart {
+    text-align: center; }
+    .type-56 .nl-PieChart .chart {
+      position: relative;
+      display: inline-block;
+      margin: auto; }
+    .type-56 .nl-PieChart .percent {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      line-height: 20px;
+      font-size: 12px;
+      font-weight: 600;
+      text-transform: uppercase;
+      color: #757575; }
+  .type-56 .nl-content {
+    text-align: center; }
+    .type-56 .nl-content .nl-title {
+      font-weight: 500;
+      position: relative;
+      margin-bottom: 10px;
+      margin-top: 15px;
+      font-family: "Poppins", sans-serif;
+      color: #242424;
+      font-size: 16px; }
+    .type-56 .nl-content p {
+      font-size: 14px;
+      color: #757575;
+      margin-top: 0;
+      margin-bottom: 10px;
+      line-height: 1.8;
+      font-weight: 400; }
+
+@media (min-width: 1200px) {
+  .my-container {
+    max-width: 1200px; } }

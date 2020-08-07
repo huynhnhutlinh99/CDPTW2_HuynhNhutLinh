@@ -1,0 +1,116 @@
+$color_red: #D03632;
+$color_Green: #90D0C4;
+$color_blue: #23569C;
+$color_orange: #FDA400;
+$color_757575: #757575;
+$color_blue_2: #3EAAFD;
+.type-6{
+    padding: 80px 0;
+    background-color: #F5F7FA;
+    a{
+        text-decoration: none;
+    }
+    .nl-title{
+        font-size: 30px;
+        text-transform: capitalize;
+        text-align: center;
+    }
+    .title-desc{
+        text-align: center;
+        color: $color_757575;
+        margin-bottom: 30px;
+    }
+    .nl-item-col{
+        margin-bottom: 30px;
+        .nl-col-ctn{
+            position: relative;
+            transition: all 0.35s;
+            z-index: 1;
+            &:hover{
+                box-shadow: 0 8px 12px 0 rgba(58,87,135,0.15);
+    
+            }
+            &:after{
+                content: '';
+                position: absolute;
+                left: 20px;
+                right: 20px;
+                bottom: 0;
+                z-index: -1;
+                height: 50px;
+                border-radius: 50%;
+                box-shadow: 0 10px 14px 0 rgba(0,0,0,0.08);
+                transition: all 0.3s ease;
+            }
+        }
+    }
+    .nl-item-image{
+        position: relative;
+        color: #fff;
+        img{
+            width: 100%;
+        }
+        .nl-ico-video{
+            position: absolute;
+            bottom: 15px;
+            left: 18px;
+            span{
+                padding-left: 8px;
+            }
+        }
+        .nl-ico-camera{
+            position: absolute;
+            bottom: 15px;
+            right: 18px;
+            span{
+                padding-left: 8px;
+            }
+        }
+    }
+    .nl-part-has-line{
+        border: 1px solid #ebebeb;
+        background-color: #fff;
+    }
+    .nl-listing-info{
+        min-height: 118px;
+        padding: 15px 18px 5px;
+        h3{
+            font-size: 16px;
+            font-weight: 500;
+            line-height: 20px;
+            margin-top: 5px;
+            margin-bottom: 10px;
+        }
+        p{
+            margin-top: 6px;
+            font-size: 13px;
+            color: #242424;
+            line-height: 16px;
+            margin-bottom: 5px;
+        }
+        .nl-icon-des{
+            color: $color_blue_2;
+        }
+        .nl-text-des{
+            padding-left: 8px;
+        }
+    }
+    .nl-listing-footer{
+        border-top: 1px solid #ebebeb;
+        padding: 10px 18px;
+        font-size: 12px;
+        p{
+            margin-bottom: 0;
+            i{
+                margin-right: 8px;
+            }
+        }
+        .nl-type-hotels{
+            color: $color_red;
+        }
+        .nl-name-city{
+            text-align: right;
+            color: #242424;;
+        }
+    }
+}

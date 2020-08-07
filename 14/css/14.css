@@ -1,0 +1,73 @@
+.type-14 {
+  background: #2A2E3C;
+  padding: 75px 0 50px;
+  line-height: 28px; }
+  .type-14 ul {
+    padding-left: 0; }
+    .type-14 ul li {
+      list-style: none; }
+  .type-14 .nl-block-title {
+    color: #fff;
+    font-size: 18px;
+    font-weight: 500;
+    margin: 0 0 20px; }
+  .type-14 .nl-contact-info {
+    width: 100%; }
+    .type-14 .nl-contact-info .nl-ul-ctn-info li {
+      position: relative;
+      flex-direction: row;
+      width: 100%;
+      margin-right: 0;
+      margin-left: 0;
+      margin-bottom: 10px;
+      padding-bottom: 10px;
+      border-bottom: 1px solid rgba(255, 255, 255, 0.1); }
+      .type-14 .nl-contact-info .nl-ul-ctn-info li:last-child {
+        border-bottom: 0; }
+      .type-14 .nl-contact-info .nl-ul-ctn-info li .nl-col-left {
+        position: absolute;
+        color: #3EAAFD;
+        display: flex;
+        width: 36px;
+        align-items: center;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0; }
+        .type-14 .nl-contact-info .nl-ul-ctn-info li .nl-col-left svg {
+          margin-top: -10px;
+          font-size: 26px; }
+      .type-14 .nl-contact-info .nl-ul-ctn-info li .nl-span-text {
+        padding-left: 42px;
+        color: rgba(255, 255, 255, 0.7); }
+    .type-14 .nl-contact-info .nl-text-send-us {
+      color: #3EAAFD; }
+  .type-14 .nl-link-footer .nl-link-footer__ul .nl-link-footer__ul__li {
+    padding: 4px 0; }
+    .type-14 .nl-link-footer .nl-link-footer__ul .nl-link-footer__ul__li a {
+      color: rgba(255, 255, 255, 0.7); }
+.type-14 .nl-subs-our form div {
+  color: rgba(255, 255, 255, 0.7); }
+.type-14 .nl-subs-our form input {
+  margin-top: 20px;
+  padding: 0 20px;
+  width: 100%;
+  height: 40px;
+  background: none;
+  border: 2px solid rgba(255, 255, 255, 0.3);
+  max-width: 320px;
+  color: #fff; }
+.type-14 .nl-subs-our form button {
+  background: #3EAAFD;
+  border: none;
+  padding: 0 15px;
+  line-height: 35px;
+  text-align: center;
+  font-size: 14px;
+  transition: all 0.35s;
+  display: inline-block;
+  width: auto;
+  margin-top: 15px;
+  color: #fff;
+  font-weight: 500;
+  border-radius: 4px; }

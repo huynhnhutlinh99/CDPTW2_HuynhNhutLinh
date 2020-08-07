@@ -1,0 +1,53 @@
+.type-65 {
+  padding: 80px 0;
+  background-color: #fff; }
+  .type-65 a {
+    text-decoration: none; }
+  .type-65 .nl-item-col {
+    margin-bottom: 30px; }
+    .type-65 .nl-item-col .nl-col-ctn {
+      position: relative;
+      transition: all 0.35s;
+      z-index: 1;
+      box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.1); }
+      .type-65 .nl-item-col .nl-col-ctn:hover .nl-title-name {
+        color: #fff; }
+      .type-65 .nl-item-col .nl-col-ctn:hover .nl-listing-info {
+        background: #3EAAFD;
+        color: #fff; }
+        .type-65 .nl-item-col .nl-col-ctn:hover .nl-listing-info p {
+          color: #fff; }
+        .type-65 .nl-item-col .nl-col-ctn:hover .nl-listing-info .nl-btn-primary {
+          color: #fff; }
+  .type-65 .nl-item-image img {
+    width: 100%; }
+  .type-65 .nl-part-has-line {
+    background-color: #fff; }
+  .type-65 .nl-listing-info {
+    min-height: 118px;
+    padding: 20px;
+    text-align: center; }
+    .type-65 .nl-listing-info .nl-title-name {
+      color: #242424;
+      font-size: 16px;
+      font-weight: 500;
+      line-height: 20px;
+      margin-top: 5px;
+      margin-bottom: 10px; }
+      .type-65 .nl-listing-info .nl-title-name:hover {
+        color: #FEBF01 !important; }
+    .type-65 .nl-listing-info p {
+      color: #757575; }
+    .type-65 .nl-listing-info .nl-btn-primary {
+      display: inline-block;
+      text-transform: capitalize;
+      font-weight: 500;
+      font-size: 14px;
+      color: #3EAAFD;
+      line-height: 25px; }
+      .type-65 .nl-listing-info .nl-btn-primary:hover {
+        color: #FEBF01 !important; }
+      .type-65 .nl-listing-info .nl-btn-primary i {
+        margin-left: 2px;
+        font-size: 12px;
+        font-weight: 900; }

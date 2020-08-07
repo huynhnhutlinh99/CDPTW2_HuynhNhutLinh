@@ -1,0 +1,45 @@
+.type-40 a {
+  text-decoration: none; }
+.type-40 .nl-post-image {
+  flex-basis: 40%;
+  width: 40%; }
+  .type-40 .nl-post-image img {
+    width: 100%;
+    height: auto; }
+.type-40 .post-content {
+  flex-basis: 60%;
+  width: 60%;
+  padding: 5px 0 0 15px; }
+  .type-40 .post-content .nl-title {
+    margin-bottom: 5px; }
+    .type-40 .post-content .nl-title a {
+      font-size: 18px;
+      line-height: 24px;
+      font-weight: 500;
+      color: #000; }
+  .type-40 .post-content .nl-post-date {
+    color: #999;
+    margin: 2px 0 10px; }
+    .type-40 .post-content .nl-post-date a {
+      color: #3EAAFD;
+      padding: 0;
+      display: inline-block;
+      margin-right: 5px;
+      font-size: 11px;
+      font-weight: 500; }
+    .type-40 .post-content .nl-post-date span {
+      display: inline-block;
+      font-size: 13px;
+      font-weight: 400;
+      color: #999;
+      padding-left: 5px; }
+.type-40 .nl-ctn {
+  font-size: 14px;
+  font-weight: 400;
+  color: #757575;
+  line-height: 1.8; }
+.type-40 ul {
+  padding-left: 0;
+  margin: 16px 0; }
+  .type-40 ul .nl-view-list-item {
+    margin: 0 0 30px 0; }

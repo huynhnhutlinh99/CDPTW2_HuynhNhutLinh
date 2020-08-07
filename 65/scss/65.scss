@@ -1,0 +1,77 @@
+
+.type-65{
+    padding: 80px 0;
+    background-color: #fff;
+    a{
+        text-decoration: none;
+    }
+    .nl-item-col{
+        margin-bottom: 30px;
+        .nl-col-ctn{
+            position: relative;
+            transition: all 0.35s;
+            z-index: 1;
+            box-shadow: 0px 10px 30px rgba(0,0,0,0.1);
+            &:hover{
+                .nl-title-name{
+                    color: #fff;
+                }
+                .nl-listing-info{
+                    background: #3EAAFD;
+                    color: #fff;
+                    p{
+                        color: #fff;
+                    }
+                    .nl-btn-primary{
+                        color: #fff;
+                    }
+                }
+            }
+        }
+    }
+    .nl-item-image{
+        img{
+            width: 100%;
+        }
+    }
+    .nl-part-has-line{
+        background-color: #fff;
+    }
+    .nl-listing-info{
+        min-height: 118px;
+        padding: 20px;
+        text-align: center;
+        .nl-title-name{
+            color: #242424;
+            font-size: 16px;
+            font-weight: 500;
+            line-height: 20px;
+            margin-top: 5px;
+            margin-bottom: 10px;
+            
+            &:hover{
+                color: #FEBF01 !important;
+            }
+        }
+        p{
+            color: #757575;
+        }
+        .nl-btn-primary{
+            display: inline-block;
+            text-transform: capitalize;
+            font-weight: 500;
+            font-size: 14px;
+            color: #3EAAFD;
+            line-height: 25px;
+            &:hover{
+                color: #FEBF01 !important;
+            }
+            i{
+                margin-left: 2px;
+                font-size: 12px;
+                font-weight: 900;
+                
+            }
+        }
+    }
+}

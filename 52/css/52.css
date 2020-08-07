@@ -1,0 +1,50 @@
+.type-52 a {
+  text-decoration: none; }
+.type-52 .nl-row-52 {
+  position: relative;
+  width: 100%;
+  margin: 0;
+  align-items: center;
+  padding: 80px 0; }
+.type-52 .nl-btn-actions {
+  text-align: right;
+  padding-top: 6px; }
+  .type-52 .nl-btn-actions .nl-btn-theme {
+    position: relative;
+    display: inline-block;
+    line-height: 42px;
+    background-color: #3EAAFD;
+    color: #fff;
+    overflow: hidden;
+    font-size: 14px;
+    font-weight: 600;
+    padding: 0 36px 0 26px;
+    z-index: 1;
+    border-radius: 4px;
+    font-family: "Poppins", sans-serif; }
+    .type-52 .nl-btn-actions .nl-btn-theme i {
+      position: absolute;
+      top: 50%;
+      transform: translateY(-50%);
+      right: 14px;
+      font-weight: 900;
+      margin: auto; }
+.type-52 .nl-content {
+  text-align: left;
+  display: inline-block; }
+  .type-52 .nl-content .nl-title {
+    position: relative;
+    font-size: 28px;
+    line-height: 39px;
+    letter-spacing: 0;
+    font-weight: 500;
+    margin-bottom: 0; }
+  .type-52 .nl-content .nl-decs {
+    font-size: 14px;
+    line-height: 30px;
+    color: #757575;
+    margin-bottom: 0; }
+
+@media (max-width: 767px) {
+  .nl-btn-theme {
+    margin-top: 30px; } }

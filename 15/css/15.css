@@ -1,0 +1,55 @@
+.type-15 {
+  background-color: #2a2e3c;
+  padding: 30px 0;
+  line-height: 28px; }
+  .type-15 .nl-line-1 {
+    position: relative;
+    text-align: center; }
+    .type-15 .nl-line-1::after {
+      content: "";
+      border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+      position: absolute;
+      top: 50%;
+      right: 0;
+      width: 100%;
+      z-index: 2; }
+    .type-15 .nl-line-1 .nl-list-ico {
+      position: relative;
+      background-color: #2a2e3c;
+      z-index: 3; }
+    .type-15 .nl-line-1 a {
+      margin: 0 10px;
+      display: inline-block; }
+      .type-15 .nl-line-1 a i {
+        background: none;
+        font-size: 20px;
+        color: rgba(255, 255, 255, 0.7);
+        width: 30px;
+        height: 30px;
+        display: inline-block;
+        text-align: center;
+        line-height: 30px;
+        border-radius: 50%; }
+  .type-15 .nl-line-2 {
+    margin: 10px 0 5px;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.7); }
+    .type-15 .nl-line-2 a {
+      position: relative;
+      display: inline-block;
+      color: rgba(255, 255, 255, 0.7);
+      font-size: 15px;
+      margin-right: 10px;
+      padding-right: 12px; }
+      .type-15 .nl-line-2 a:after {
+        position: absolute;
+        content: "";
+        width: 1px;
+        height: 15px;
+        top: 50%;
+        right: 0;
+        transform: translateY(-50%);
+        background: rgba(255, 255, 255, 0.2);
+        z-index: 1; }
+        .type-15 .nl-line-2 a:last-child::after {
+          width: 0; }

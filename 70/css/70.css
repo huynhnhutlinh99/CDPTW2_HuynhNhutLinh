@@ -1,0 +1,19 @@
+.type-70 .nl-content {
+  margin-bottom: 50px;
+  padding: 0;
+  display: flex;
+  flex-direction: row; }
+  .type-70 .nl-content .nl-icon-part img {
+    display: inline-block;
+    margin-top: 12px; }
+  .type-70 .nl-content .nl-ctn-part {
+    padding-left: 20px; }
+  .type-70 .nl-content .nl-item-name {
+    font-size: 18px;
+    color: #000;
+    margin: 10px 0;
+    font-weight: 500;
+    font-family: poppins, sans-serif; }
+  .type-70 .nl-content .decs {
+    color: #757575;
+    line-height: 25px; }

@@ -1,0 +1,62 @@
+.type-33{
+    .nl-listing-frm{
+        position: relative;
+        background-color: #fff;
+        border: 1px solid rgba(0,0,0,0.06);
+        z-index: 10;
+        &:after{
+            content: '';
+            position: absolute;
+            left: 20px;
+            right: 20px;
+            bottom: 0;
+            z-index: 0;
+            height: 50px;
+            border-radius: 50%;
+            box-shadow: 0 10px 14px 0 rgba(0,0,0,0.08);
+            transition: all 0.3s ease;
+        }
+        .nl-title{
+            border-bottom: 1px solid rgba(0,0,0,0.06);
+            padding: 10px 25px;
+            color: #242424;
+            font-family: "Poppins",sans-serif;
+            font-size: 16px;
+            font-weight: 500;
+            i{
+                margin-right: 12px;
+                color: #888;
+            }
+        }
+        .nl-ctn{
+            margin: 0;
+            position: relative;
+            padding: 25px;
+            background: #fff;
+            z-index: 1;
+            .nl-col-item{
+                position: relative;
+                padding: 0;
+                margin-bottom: 8px;
+                a{
+                    padding-left: 28px;
+                    display: block;
+                    color: #242424;
+                    text-decoration: none;
+                    &:hover{
+                        color: #3EAAFD;
+                    }
+                }
+                i{
+                    position: absolute;
+                    top: 50%;
+                    transform: translateY(-50%);
+                    left: 0;
+                    margin: auto;
+                    color: #3EAAFD;
+                    font-size: 16px;
+                }
+            }
+        }
+    }
+}
